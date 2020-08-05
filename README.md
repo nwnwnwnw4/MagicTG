@@ -13,8 +13,6 @@ NA
 
 ## Usage example
 
-NA
-
 Output:
 ![Image of Output]
 (htts://github.com/nwnwnwnw4/final graph.png)
@@ -35,4 +33,4 @@ https://github.com/nwnwnwnw4
 
 ## Contributing
 
-NA# MagicTG
+NA
