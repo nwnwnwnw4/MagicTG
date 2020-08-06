@@ -3,6 +3,7 @@
 import numpy
 import matplotlib.pyplot as plt
 import ast
+import math
 
 def result_data():
     #reads the txt file and returns the data, ordered by total counts, in this format [(total count, key word, list of counts by color)]
@@ -23,7 +24,7 @@ fig.subplots_adjust(wspace=0.95, hspace=0.30, top=0.90, bottom=0.02)
 colors = ['dimgrey', 'whitesmoke', 'mediumblue', 'black', 'tab:red','forestgreen']
     
 for ax, (keyWordSum, KeyWordTitle, keyWordData) in zip(axes.flatten(), data):    
-    KeyWordTitle += ' ({})'.format(int(keyWordSum))
+    KeyWordTitle += ' ({})'.format(int(math.ceil(keyWordSum)))
     ax.set_title(KeyWordTitle, weight='bold', size='medium', position=(0.5, 1.1),
         horizontalalignment='center', verticalalignment='center')
     ax.pie(keyWordData, colors=colors, 
