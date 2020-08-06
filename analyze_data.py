@@ -3,7 +3,7 @@ This script extracts data from AllPrintings.json file, performs the counting key
 
 Notes:
 1) Reprints of cards are omitted. This avoids double counting of keywords that occur as result of reprints in subsequent sets.  
-2) Key words are identified in the MTGJSON project. Some key words may appear in the rule text but are not necessarily associated with the card.  For example, Oran-Reif Recluse is associated with the keywords, kicker and reach; flying is in the card's rule text but is not a key word associated with the card. 
+2) Key words are as identified by MTGJSON project. Some key words may appear in the rule text but are not necessarily associated with the card.  For example, Oran-Reif Recluse is associated with the keywords, kicker and reach; flying is in the card's rule text but is not a key word associated with the card. Key word must also be unconditional. Hence Ankle Shanker and Arisen Gorgon don't count as having deathtouch. 
 """
 
 import json
