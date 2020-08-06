@@ -15,7 +15,7 @@ NA
 ## Usage example
 
 Output:
-![Image of Output](https://github.com/nwnwnwnw4/MagicTG/blob/master/graph%20output.png)
+![Image of Output](https://github.com/nwnwnwnw4/MagicTG/blob/master/graph%20output%20new.png)
 
 ## Development setup
 
